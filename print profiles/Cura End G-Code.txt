@@ -10,6 +10,7 @@ G90; Absolute positioning
 
 G1 X0 Y225; Move to corner - present print
 M106 S0; Turn-off fan
+M106 S0 P2; Turn-off Mobo fan
 M104 S0; Turn-off hotend
 M140 S0; Turn-off bed
 
