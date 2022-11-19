@@ -5,11 +5,10 @@ G1 E-2 F2700; Retract a bit
 G1 E-2 Z0.2 F2400; Retract and raise Z
 G1 X5 Y5 F3000; Wipe out
 G1 Z10; Raise Z more
-G1 E-50; Unload filament
+G1 E-46; Unload filament
 G90; Absolute positioning
 
 G1 X0 Y225; Move to corner - present print
-M106 S0; Turn-off fan
 M106 S0 P2; Turn-off Mobo fan
 M104 S0; Turn-off hotend
 M140 S0; Turn-off bed
