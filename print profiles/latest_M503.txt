@@ -1,0 +1,84 @@
+Send: M503
+Recv: echo:; Linear Units:
+Recv: echo:  G21 ; (mm)
+Recv: echo:; Temperature Units:
+Recv: echo:  M149 C ; Units in Celsius
+Recv: echo:; Filament settings (Disabled):
+Recv: echo:  M200 S0 D1.7500
+Recv: echo:; Steps per unit:
+Recv: echo:  M92 X80.0000 Y80.0000 Z400.0000 E100.0000
+Recv: echo:; Max feedrates (units/s):
+Recv: echo:  M203 X300.0000 Y300.0000 Z5.0000 E25.0000
+Recv: echo:; Max Acceleration (units/s2):
+Recv: echo:  M201 X500.0000 Y500.0000 Z100.0000 E5000.0000
+Recv: echo:; Acceleration (units/s2) (P<print-accel> R<retract-accel> T<travel-accel>):
+Recv: echo:  M204 P500.0000 R500.0000 T500.0000
+Recv: echo:; Advanced (B<min_segment_time_us> S<min_feedrate> T<min_travel_feedrate> X<max_jerk> Y<max_jerk> Z<max_jerk> E<max_jerk>):
+Recv: echo:  M205 B20000.0000 S0.0000 T0.0000 X10.0000 Y10.0000 Z0.3000 E10.0000
+Recv: echo:; Home offset:
+Recv: echo:  M206 X0.0000 Y0.0000 Z0.0000
+Recv: echo:; Material heatup parameters:
+Recv: echo:  M145 S0 H215.0000 B60.0000 F255
+Recv: echo:  M145 S1 H260.0000 B75.0000 F255
+Recv: echo:  M145 S2 H285.0000 B85.0000 F255
+Recv: echo:; Hotend PID:
+Recv: echo:  M301 P30.5600 I3.3100 D70.6200
+Recv: echo:; Stepper driver current:
+Recv: echo:  M906 X760 Y760 Z760
+Recv: echo:  M906 T0 E900
+Recv: 
+Recv: echo:; Hybrid Threshold:
+Recv: echo:  M913 X100 Y100 Z3
+Recv: echo:  M913 T0 E30
+Recv: 
+Recv: echo:; Driver stepping mode:
+Recv: echo:  M569 S1 X Y Z
+Recv: echo:; Linear Advance:
+Recv: echo:  M900 K0.2200
+Recv: echo:; Filament load/unload:
+Recv: echo:  M603 L0.0000 U100.0000 ; (mm)
+Recv: ok
+Recv:  T:178.55 /0.00 B:30.29 /0.00 @:0 B@:0
+Recv:  T:177.77 /0.00 B:30.12 /0.00 @:0 B@:0
+Recv:  T:177.07 /0.00 B:30.15 /0.00 @:0 B@:0
+Recv:  T:176.11 /0.00 B:30.16 /0.00 @:0 B@:0
+Send: M503
+Recv: echo:; Linear Units:
+Recv: echo:  G21 ; (mm)
+Recv: echo:; Temperature Units:
+Recv: echo:  M149 C ; Units in Celsius
+Recv: echo:; Filament settings (Disabled):
+Recv: echo:  M200 S0 D1.7500
+Recv: echo:; Steps per unit:
+Recv: echo:  M92 X80.0000 Y80.0000 Z400.0000 E100.0000
+Recv: echo:; Max feedrates (units/s):
+Recv: echo:  M203 X300.0000 Y300.0000 Z5.0000 E25.0000
+Recv: echo:; Max Acceleration (units/s2):
+Recv: echo:  M201 X500.0000 Y500.0000 Z100.0000 E5000.0000
+Recv: echo:; Acceleration (units/s2) (P<print-accel> R<retract-accel> T<travel-accel>):
+Recv: echo:  M204 P500.0000 R500.0000 T500.0000
+Recv: echo:; Advanced (B<min_segment_time_us> S<min_feedrate> T<min_travel_feedrate> X<max_jerk> Y<max_jerk> Z<max_jerk> E<max_jerk>):
+Recv: echo:  M205 B20000.0000 S0.0000 T0.0000 X10.0000 Y10.0000 Z0.3000 E10.0000
+Recv: echo:; Home offset:
+Recv: echo:  M206 X0.0000 Y0.0000 Z0.0000
+Recv: echo:; Material heatup parameters:
+Recv: echo:  M145 S0 H215.0000 B60.0000 F255
+Recv: echo:  M145 S1 H260.0000 B75.0000 F255
+Recv: echo:  M145 S2 H285.0000 B85.0000 F255
+Recv: echo:; Hotend PID:
+Recv: echo:  M301 P30.5600 I3.3100 D70.6200
+Recv: echo:; Stepper driver current:
+Recv: echo:  M906 X760 Y760 Z760
+Recv: echo:  M906 T0 E900
+Recv: 
+Recv: echo:; Hybrid Threshold:
+Recv: echo:  M913 X100 Y100 Z3
+Recv: echo:  M913 T0 E30
+Recv: 
+Recv: echo:; Driver stepping mode:
+Recv: echo:  M569 S1 X Y Z
+Recv: echo:; Linear Advance:
+Recv: echo:  M900 K0.2200
+Recv: echo:; Filament load/unload:
+Recv: echo:  M603 L0.0000 U100.0000 ; (mm)
+Recv: ok
