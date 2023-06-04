@@ -5,7 +5,7 @@ G1 E-2 F2700; Retract a bit
 G1 E-2 Z0.2 F2400; Retract and raise Z
 G1 X5 Y5 F3000; Wipe out
 G1 Z10; Raise Z more
-G1 E-46; Unload filament
+G1 E-50; Unload filament
 G90; Absolute positioning
 
 G1 X5 Y225; Move to corner - present print
