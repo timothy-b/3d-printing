@@ -4,7 +4,7 @@ M140 S{material_bed_temperature}; Start preheating bed
 M104 S{material_print_temperature} T0; Start preheating hotend
 G28 X Y; Home X and Y
 G28 Z; Home Z
-G1 X6 Y7 Z20 F5000.0; Move to priming location
+G1 X6 Y8 Z20 F5000.0; Move to priming location
 M109 S{material_print_temperature} T0; await hotend preheating
 M92 E141.1; Set e-steps.
 M190 S{material_bed_temperature}; await bed preheating
